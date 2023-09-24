@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+dt {
+  font-weight: bold;
+}
+
+.container {
+  margin: 5px auto;
+}
+
+.container dd {
+  /* ブロック要素からインライン要素に変更する */
+  display: inline-block;
+}
+.ddimg{
+  width: 120px;
+}
+img.container {
+  float: left;
+}
+
+.descriptions{
+  width: 400px;
+}
